@@ -369,6 +369,7 @@ body {
     .header-item{
         padding-right: 2px;
         font-size:13px;
+        justify-items:center;
     }
     .cliente p{
         font-size:14px ;
@@ -385,3 +386,4 @@ body {
     }
 
 }
+
