@@ -383,15 +383,9 @@ body {
     .cajondetalles p{
         padding-right:3px ;
     }
-        .articulo-header {
-        display: flex;
-        flex-direction: column; 
-        align-items: center; 
-    }
-    #art{
-        aling-items: center;
 
 }
+
 
 
 
