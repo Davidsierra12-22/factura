@@ -383,8 +383,13 @@ body {
     .cajondetalles p{
         padding-right:3px ;
     }
+        #art {
+        text-align: center;
+        width: 100%;
+    }
 
 }
+
 
 
 
