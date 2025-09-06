@@ -390,9 +390,11 @@ body {
     #art {
         text-align: center;
         width: 100%;
+        padding-left: 15px;
     }
 
 }
+
 
 
 
