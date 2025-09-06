@@ -372,7 +372,7 @@ body {
         display: flex;
         width: 100%;
         align-items: center;
-                padding-left: 20px;
+        padding-left: 20px;
 }
     
     .cliente p{
@@ -388,13 +388,9 @@ body {
     .cajondetalles p{
         padding-right:3px ;
     }
-    #art {
-        text-align: center;
-        width: 100%;
-        padding-left: 15px;
-    }
 
 }
+
 
 
 
