@@ -42,7 +42,13 @@ body {
     font-size: 50px;
     color: #48D1CC;
 }
-
+.detalles h3{
+    text-align: center;
+    margin: 5px;
+    margin-right: 120px;
+    font-size: 16px;
+    color: #48D1CC;
+}
 .detalles p {
     text-align: center;
     margin: 5px 0;
@@ -88,6 +94,7 @@ body {
 .metodo-pago {
     justify-content: flex-start;
     margin-right: 56px;
+    margin-top: 28px;
 }
 
 .metodo-pago h2 {
@@ -173,11 +180,15 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: 240px;
+     position: sticky;
+    top: 0; /* Se pegará en la parte superior de la ventana cuando la alcance */
+    z-index: 100; /* Asegura que el elemento sticky esté sobre los demás */
+    padding: 10px;
 }
 
 .detalles2 {
     padding-right: 40%;
-    padding-left: 60%;
+    padding-left: 70%;
 
 }
 
@@ -210,8 +221,11 @@ body {
 .detalles4 {
     margin: 0px;
     margin-left: -40px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
+}
+.detalles4 p{
+    margin:3px;
 }
 
 .detalles5 {
@@ -244,6 +258,7 @@ body {
 
 
 }
+
 @media(max-width: 800px){
     .detalles4{margin-left:0px;
         justify-content: flex-start;
@@ -279,6 +294,19 @@ body {
     margin-top: 35px;
  }
 }
+@media(max-width: 650px) {
+    .contenedor{
+        border-left: 0px;
+    }
+    
+    
+}
+@media(max-width: 605px) {
+   .cajonpiedepagina{
+    margin-top: 40px;
+   }
+    
+}
 @media(max-width: 550px){
     .detalles5{
         margin-left:0px;
@@ -291,55 +319,41 @@ body {
     .detalles h2{
         font-size: 30px;
     }
+    .detalles h3{
+        margin-right: 0px;
+    }
     .logo{
         width: 80%;
         max-width:80% ;
     }
+     .detalles3{
+        margin-left: 30px;
+     }
+        .tabla{
+        padding: 0px;
+    }
+    .articulo{
+        padding:12px 12px ;
+    }
+    .articulo-header{
+        padding: 15px 12px;
+        padding-left: 20px;
+    }
     .cajondetalles{
-        margin-left: 250px;
-        margin-right: 0px;
-    }
-    .detalles3{
-        margin-left: 15px;
-    }
+    margin-right: 0;
+}
 
 }
-@media(max-width: 500px){
-    .cajondetalles{
-        margin-left: 200px;
-    }
-}
-@media(max-width: 430px){
-    .cajondetalles{
-        margin-left: 170px;
-    }
-}
+
 @media(max-width: 400px) {
-    .cajondetalles{
-        margin-right: 20px;
-        margin-left: 140px;
-    
-    
-}
-.contenedor {
-    border-left: 0px;
-}
-.detalles3{
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.detalles2{
-    margin-left: 25px;
-}
+
 .detalles2 p{
     margin-top: 12px;
 }
     .detalles h2{
         font-size: 25px;
     }
-    .tabla{
-        padding: 0px;
-    }
+
     .header-item{
         padding-right: 5px;
     }
@@ -360,8 +374,15 @@ body {
     padding-left: 0px;
     padding-right: 0px;
   }
+  .articulo{
+        padding-left: 0px;
+    padding-right: 0px;
+  }
   .cliente h2{
     font-size:33px ;
+  }
+  .cajondetalles{
+    padding-right: 0px;
   }
 
 }
@@ -381,12 +402,8 @@ body {
     .metodo-pago p{
         font-size: 14px;
     }
-    .cajondetalles{
-        margin-left: 120px;
-
-    }
-    .cajondetalles p{
-        padding-right:3px ;
+    .detalles3{
+        margin-left:5px ;
     }
 
 }
