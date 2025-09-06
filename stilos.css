@@ -373,7 +373,7 @@ body {
         width: 100%;
         align-items: center;
 }
-    }
+    
     .cliente p{
         font-size:14px ;
     }
@@ -387,8 +387,13 @@ body {
     .cajondetalles p{
         padding-right:3px ;
     }
+    #art {
+        text-align: center;
+        width: 100%;
+    }
 
 }
+
 
 
 
