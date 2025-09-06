@@ -384,7 +384,13 @@ body {
     .cajondetalles p{
         padding-right:3px ;
     }
+        #art {
+        
+        width: 100%;
+            margin-left: 15px;
+    }
 }
+
 
 
 
